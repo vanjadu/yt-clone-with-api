@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <title>Vanja's YT Clone With API</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="js/script.js" defer></script>
+    <script src="https://apis.google.com/js/api.js" defer></script>
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar">
+      <div class="navbar__toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="index.html">
+        <img src="img/logo.webp" alt="logo" class="navbar__logo" />
+      </a>
+      <div class="navbar__search-box">
+        <input type="text" placeholder="Search" class="navbar__search-field" />
+        <button class="navbar__search-btn">
+          <img src="img/loupe.svg" alt="search icon" />
+        </button>
+      </div>
+      <div class="navbar__user-options">
+        <p class="navbar__option-icon"><i class="fas fa-video"></i></p>
+        <p class="navbar__option-icon"><i class="fas fa-th-large"></i></p>
+        <p class="navbar__option-icon"><i class="fas fa-bell"></i></p>
+        <div class="navbar__user">
+          <img src="img/avatar.svg" alt="avatar icon" class="navbar__avatar" />
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+    <div class="side-bar">
+      <a href="#" class="side-bar__links active">
+        <p><i class="fas fa-home"></i></p>
+        Home
+      </a>
+      <a href="#" class="side-bar__links">
+        <p><i class="fas fa-compass"></i></p>
+        Explore
+      </a>
+      <a href="#" class="side-bar__links">
+        <p><i class="fas fa-layer-group"></i></p>
+        Subscriptions
+      </a>
+      <hr class="side-bar__separator" />
+      <a href="#" class="side-bar__links">
+        <p><i class="fas fa-history"></i></p>
+        History
+      </a>
+      <a href="#" class="side-bar__links">
+        <p><i class="fas fa-video"></i></p>
+        Your videos
+      </a>
+      <a href="#" class="side-bar__links">
+        <p><i class="fas fa-clock"></i></p>
+        Watch later
+      </a>
+      <a href="#" class="side-bar__links">
+        <p><i class="fas fa-thumbs-up"></i></p>
+        Liked videos
+      </a>
+      <a href="#" class="side-bar__links">
+        <p><i class="fas fa-chevron-down"></i></p>
+        Show more
+      </a>
+    </div>
+    <!-- Filters -->
+    <div class="filters">
+      <button class="filters__filter-btn active">all</button>
+      <button class="filters__filter-btn">CSS</button>
+      <button class="filters__filter-btn">web development</button>
+      <button class="filters__filter-btn">node</button>
+      <button class="filters__filter-btn">content</button>
+      <button class="filters__filter-btn">star wars</button>
+      <button class="filters__filter-btn">javascript</button>
+      <button class="filters__filter-btn">next.js</button>
+      <button class="filters__filter-btn">styled-comonents</button>
+      <button class="filters__filter-btn">trending</button>
+    </div>
+    <!-- Videos -->
+    <div class="video-container">
+      <!-- Append here -->
+    </div>
+  </body>
+</html>
